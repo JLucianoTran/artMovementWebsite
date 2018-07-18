@@ -1,0 +1,83 @@
+header a {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: 'Poiret One';
+	margin-top: 3em;
+	color: #707070;
+	text-align: center;
+	letter-spacing: .25em;
+}
+
+nav {
+	margin-top: 4em;
+	font-family: 'Poiret One';
+	color: #707070;
+	text-align: center;
+}
+
+.float {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: #707070;
+}
+
+nav a:visited{
+	color: #707070;
+}
+
+nav a:hover{
+	color: #000000;
+}
+
+.background1 {
+	background-image: url("pictures/back1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.background2 {
+	background-image: url("pictures/back2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.background3 {
+	background-image: url("pictures/back3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.left {
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	margin: 8em;
+	margin-top: 7em;
+}
+
+.right {
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	margin: 8em;
+	margin-top: 7em;
+}
+
+p {
+	text-align: center;
+	margin-left: 30em;
+	margin-right: 30em;
+}
+
+.circle {
+	position: center;
+	size: auto;
+}
