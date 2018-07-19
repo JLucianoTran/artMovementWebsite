@@ -47,37 +47,60 @@ nav a:hover{
 	background-image: url("pictures/back2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 100vh;
+	display: block;
+	margin: auto;
 }
 
 .background3 {
 	background-image: url("pictures/back3.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 100vh;
+	display: block;
+	margin: auto;
 }
 
 .left {
 	writing-mode: vertical-rl;
 	text-orientation: upright;
-	margin: 8em;
-	margin-top: 7em;
-}
-
-.right {
-	writing-mode: vertical-rl;
-	text-orientation: upright;
-	margin: 8em;
+	margin: 1em;
 	margin-top: 7em;
 }
 
 p {
 	text-align: center;
-	margin-left: 30em;
-	margin-right: 30em;
+	display: block;
+	margin: auto;
+	width: 90%;
+	max-width: 400px;
+	color: #707070;
 }
 
 .circle {
-	position: center;
+	display: block;
+	margin: auto;
 	size: auto;
+	width: 100%;
+	max-width: 300px;
+	margin-top: 10em;
+}
+
+
+
+@media only screen and (max-width: 320px) {
+	
+	h1 {
+		font-size: 1em;
+	}
+	
+	.left {
+		writing-mode: horizontal-tb;
+		margin: 1em;
+		margin-top: 7em;
+	}
+	
+	.float {
+		text-align: center;
+		position: relative;
+	
+	
 }
